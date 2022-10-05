@@ -10,7 +10,7 @@ const bodyParser = require('body-parser');
 //Import do arquivo cursos
 const {getListCursos, 
        getCursos
-      } = require ('./modulo/cursos.js')
+      } = require ('./module/cursos.js')
 
 //Import do arquivo alunos
 const {getListAlunos, 
@@ -19,7 +19,7 @@ const {getListAlunos,
        getAlunosAnoConclusao,
        getDisciplinasMedias,
        getAlunosStatus
-      } = require ('./modulo/alunos')
+      } = require ('./module/alunos')
 
 //Cria um objeto chamado app que será especialista nas funções do express
 const app = express();
