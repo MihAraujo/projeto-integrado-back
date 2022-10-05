@@ -156,7 +156,6 @@ app.get('/.netlify/functions/api/alunostatus/:status', cors(), async function(re
     }
 });
 
-module.exports = {
-    app
-}
+module.exports = app
+
 
